@@ -2,15 +2,15 @@
 menu:
   主页: /
   所有文章: /archives
-  # 随笔: /tags/随笔
+  资源: /links
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
-  #douban: "#"
+  github: "https://github.com/xiaoyu5256"
+  weibo: "http://weibo.com/xiaoyu5256"
+  rss: "/atom.xml"
+  #zhihu: "#"
+  douban: "http://douban.com/people/xiaoyu5256"
   #mail: "#"
   #facebook: "#"
   #google: "#"
@@ -32,33 +32,33 @@ open_in_new: false
 
 # Miscellaneous
 google_analytics: ''
+
+# Baidu Analytics ID
+baidu_analytics: d19398d6ff57c46d4b3620064d731f80
+    
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /images/avatar.jpg
 #是否开启分享
 share_jia: true
 share_addthis: false
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: true
+duoshuo: showmecode
 #是否开启云标签
 tagcloud: true
 
 #是否开启友情链接
 #不开启——
-#friends: false
+friends: false
 #开启——
-friends:
-  奥巴马的博客: http://localhost:4000/
-  卡卡的美丽传说: http://localhost:4000/
-  本泽马的博客: http://localhost:4000/
-  吉格斯的博客: http://localhost:4000/
-  习大大大不同: http://localhost:4000/
-  托蒂的博客: http://localhost:4000/
+# friends:
+#   奥巴马的博客: http://localhost:4000/
+#   卡卡的美丽传说: http://localhost:4000/
 
 #是否开启“关于我”。
 #不开启——
-#aboutme: false
+aboutme: false
 #开启——
-aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…
+#aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…
