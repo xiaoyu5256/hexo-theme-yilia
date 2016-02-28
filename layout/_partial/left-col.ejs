@@ -8,15 +8,21 @@
 			<img src="<%=theme.avatar%>" class="js-avatar" style="width: 100%;height: 100%;opacity: 1;">
 			<%}%>
 		</a>
-
+<!--
 		<hgroup>
 		  <h1 class="header-author"><a href="/"><%=theme.author%></a></h1>
 		</hgroup>
+-->
+        <hgroup>
+            <h2 class="header-title"><%=theme.title%></h2>
+        </hgroup>
+        <%- partial('search-swiftype') %>
 
+<!--
 		<% if (theme.subtitle){ %>
 		<p class="header-subtitle"><%=theme.subtitle%></p>
 		<%}%>
-
+--> 
 		<%if(theme.tagcloud){%>
 			<div class="switch-btn">
 				<div class="icon">
