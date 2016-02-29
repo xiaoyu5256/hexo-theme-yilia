@@ -52,7 +52,7 @@ share_addthis: false
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
 duoshuo: showmecode
 #开启swiftype搜索
-swiftype_key: wUk8jywGTHnEoufvyC6k
+#swiftype_key: wUk8jywGTHnEoufvyC6k
 #是否开启云标签
 tagcloud: true
 
